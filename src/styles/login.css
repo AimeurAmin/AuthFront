@@ -20,12 +20,7 @@
 
 .link-go-to {
     text-decoration: none;
-    color: white;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* color: white;*/
 }
 
 .page__close_auth {

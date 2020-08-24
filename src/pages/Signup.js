@@ -10,7 +10,7 @@ const Signup = () => {
     const [exitAnimation, setExitAnimation] = useState({
         left: ['100%', '0%'],
         transform: ['translate(-100%)', 'translate(0%)'],
-        width:['30%','50%','30%']
+        width:['30%','70%','30%']
     })
     
     const handleClose = () => {

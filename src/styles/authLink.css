@@ -1,0 +1,43 @@
+.image-container-btn {
+    height: 54px;
+    min-width: 223px;
+    border: none;
+    border-radius: 30px;
+    color: #1a1e1d;
+    /* font-family: "GothamPro Medium",serif; */
+    font-size: .875rem;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 100%;
+    -webkit-box-shadow: 0 12px 24px rgba(34,51,49,.13);
+    box-shadow: 0 12px 24px rgba(34,51,49,.13);
+    background: #fff;
+    width: 40%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0%); 
+}
+
+.text-auth-btn {
+    color: #1a1e1d;
+    /* font-family: "GothamPro Medium",serif; */
+    font-size: .875rem;
+    text-align: center;
+    cursor: pointer;
+    line-height: 100%;
+    text-decoration: none;
+}
