@@ -27,3 +27,33 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.page__close_auth {
+  background: url(https://diprella.com/assets/img/dark_cross.svg) center center no-repeat;
+}
+
+.page__close {
+  width: 31px;
+  height: 31px;
+  background-size: 31px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+  z-index: 30;
+}
+
+.page__close_login {
+  background: url(https://diprella.com/assets/img/login_close.svg) center center no-repeat;
+}
+
+.page__close {
+  width: 31px;
+  height: 31px;
+  background-size: 31px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+  z-index: 30;
+}
