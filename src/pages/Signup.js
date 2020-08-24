@@ -12,16 +12,17 @@ const Signup = () => {
         transform: ['translate(-100%)', 'translate(0%)'],
         width:['30%','50%','30%']
     })
+    
     const handleClose = () => {
         setExitAnimation({})
     }
+
     return (
         <div>
             <NavLink onClick={handleClose} to='/' class="page__close page__close_login"></NavLink>
             <motion.div 
                 className=' exit-signup'
                 exit={exitAnimation}
-
                 transition={transition}
             >
                 <AuthLink link='/login'>Sign In</AuthLink>

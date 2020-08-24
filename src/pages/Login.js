@@ -10,7 +10,7 @@ const transition = { duration : 1}
 
 
 const Login = () => {
-    const [exit, setExit] = useState(
+    const [exitAnimation, setExitAnimation] = useState(
         {
             left: ['0%','100%'],
             transform: ['translate(0%)', 'translate(-100%)'],
@@ -18,17 +18,17 @@ const Login = () => {
         })
 
     const handleClose = () => {
-        setExit({})
+        setExitAnimation({})
     }
 
     return (
         <div>
             <NavLink onClick={handleClose} to='/' className="page__close page__close_auth"></NavLink>
             <motion.div className='exit-login' 
-                exit={exit} 
+                exit={exitAnimation} 
                 transition={transition}
                 >
-                    <AuthLink link='/signup'>Sign Up</AuthLink>
+                    <AuthLink link='/signup' >Sign Up</AuthLink>
             </motion.div>        
         </div>
 )}
